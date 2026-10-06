@@ -1,0 +1,16 @@
+﻿# Python 自动生成的缓存和编译文件，不该进版本库
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境
+venv/
+.venv/
+
+# 编辑器
+.vscode/
+.idea/
+
+# 系统文件
+Thumbs.db
+.DS_Store
