@@ -1,6 +1,4 @@
 import json
-import sys
-import sys
 from utils import load_tasks, save_tasks
 
 def main():
