@@ -14,3 +14,6 @@ venv/
 # 系统文件
 Thumbs.db
 .DS_Store
+
+# todo本地存储数据，不要提交到github
+todos.json

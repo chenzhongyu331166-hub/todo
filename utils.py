@@ -1,17 +1,17 @@
 """工具函数：存盘和读盘"""
 import json
 
-FILE = "todos.json"
 
-def load():
+
+def load(filename="todos.json"):
     try:
-        with open(FILE, encoding="utf-8") as f:
+        with open(filename, encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
         return []
 
-def save(tasks):
-    with open(FILE, "w", encoding="utf-8") as f:
+def save(tasks, filename="todos.json"):
+    with open(filename, "w", encoding="utf-8") as f:
         json.dump(tasks, f, ensure_ascii=False, indent=2)
 
 
